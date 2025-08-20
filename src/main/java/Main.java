@@ -60,12 +60,15 @@ public class Main {
         System.out.println("\n--- Saldo Final ---");
         System.out.println("Saldo final de la cuenta: " + miCuenta.getSaldo());
 
+        //CLASES ABSTRACTAS
+        // VERDE
         System.out.println("\n****## Clases abstractas ##****\n");
         System.out.println("\n****Primer ejercicio****\n");
 
         Animal perro = new Perro();
         perro.hacerSonido();
 
+        // AMARILLO
         System.out.println("\n****Segundo ejercicio****\n");
 
         List<Animal> animales = new ArrayList<>();
@@ -76,8 +79,8 @@ public class Main {
         for (Animal animal : animales) {
             animal.hacerSonido();
         }
-
-        System.out.println("\n****Segundo ejercicio****\n");
+        // ROJO
+        System.out.println("\n****Tercer ejercicio****\n");
         List<FiguraGeometrica> figuras = new ArrayList<>();
         figuras.add(new Circulo(5.0));
         figuras.add(new Rectangulo(4.0, 6.0));
